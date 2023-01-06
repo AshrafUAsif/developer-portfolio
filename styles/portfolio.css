@@ -34,8 +34,25 @@ nav li {
 }
 .text-primary {
     color: #FD6E0A;
+    text-align: center;
+}
+.contact-color{
+    color: #FD6E0A;
+    width: 79px;
+    height: 27px;
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
 }
 
+.for-contact{
+    display: flex;
+    position: absolute;
+    width: 160px;
+    height: 64px;
+    left: 450px;
+    top: 615px;
+}
 .btn-primary {
     color: #FFFFFF;
     font-weight: 700;
@@ -45,6 +62,7 @@ nav li {
     height: 64px;
     border-radius: 5px;
     background: #FD6E0A;
+
 }
 /* banner styles */
 .banner{
@@ -191,4 +209,6 @@ input{
 }
 .contact a{
     text-decoration: none;
+}
+
 }
